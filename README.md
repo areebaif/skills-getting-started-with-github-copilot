@@ -7,7 +7,18 @@ Hey areebaif!
 Mona here. I'm done preparing your exercise. Hope you enjoy! 💚
 
 Remember, it's self-paced so feel free to take a break! ☕️
+## Running tests
 
+To run the backend FastAPI tests:
+
+```bash
+git clone https://github.com/areebaif/skills-getting-started-with-github-copilot.git
+cd skills-getting-started-with-github-copilot
+pip install -r requirements.txt
+pytest -q
+```
+
+These tests are located in the `tests/` directory and cover the backend API endpoints with the Arrange-Act-Assert pattern.
 [![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/areebaif/skills-getting-started-with-github-copilot/issues/1)
 
 ---
